@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM_JS. Считываем информацию из DOM</title>
+</head>
+<body>
+
+<table align="center" border=1 cellpadding="5" cellspacing="1" width="600px">
+
+    <tr>
+        <td>Заголовок всего сайта</td>
+    </tr>
+
+   <tr>
+        <td>
+            <ul>
+                <li><a href="dom_js.html" target="_blank">DOM_JS. Считываем информацию из DOM</a>
+                <li><a href="function.html" target="_blank">Изменяем кириллицу на латиницу по клику</a>
+                <li><a href="./xyz.html" target="_blank">Решение алгоритмической задачи</a>
+            </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+             <!--Уникальное содержание страницы-->
+            <p> Будет ли треугольник с длинами сторон x,y,z прямоугольным? Если да - отправить всё на сервер. </p>
+            <form action="https://www.bing.com/search" id="UserEnter" name="UserEnter" target="_blank">
+                <input name="q" type="hidden" value="search">
+                <input name="formulation" type="hidden" value="">
+                <p>x: <input id="x" name="x" type="number" value="6"></p>
+                <p>y: <input id="y" name="y" type="number" value="10"></p>
+                <p>z: <input id="z" name="z" type="number" value="8"></p>
+                <p>Результат решения: <input name="result" value="Не определён"></p>
+                <p>Действие 1: <input id="verify" type="button" value="Проверить"></p>
+                <p>Действие 2: <input id="send" type="button" value="Отправить"></p>
+            </form>
+            <p id="result">Результаты вычислений: </p>
+        </td>
+
+    <tr>
+        <td>Нижний блок сайта</td>
+    </tr>
+
+</table>
+</body>
+<script src="./js/xyz.js"></script>
+</html>

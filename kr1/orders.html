@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>ОФОРМЛЕНИЕ ЗАКАЗОВ</title>
+</head>
+
+<body>
+
+<header class = "header">
+    <div class = "container">
+        <div class="header-content">
+
+            <div class="header-contact">
+                <p>8 905 044-63-36</p>
+                <a href="https://yandex.ru/profile/110699872653">КОНТАКТНЫЙ ТЕЛЕФОН</a>
+            </div>
+
+            <img src="assets/images/logo.png">
+
+            <div class="links">
+                <a href="https://tlgrm.ru/"><img src="assets/images/telegram.png"></a>
+                <a href="https://vk.com/faq18225" target="_blank"><img src="assets/images/vk.png"></a>
+                <a href="https://www.google.com/maps/@56.2659328,43.892736,13z?entry=ttu" target="_blank">НАШ АДРЕС</a>
+            </div>
+
+        </div>
+
+        <div class="navigation">
+             <tr>
+                <th> <a href="index.html">ГЛАВНАЯ</a> </th>
+                <th> <a href="information.html">О НАС</a> </th>
+                <th> <a href="range.html">АССОРТИМЕНТ</a> </th>
+                <th> <a href="orders.html" class="active">ОФОРМЛЕНИЕ ЗАКАЗОВ</a> </th>
+            </tr>
+        </div>
+    </div>
+</header>
+
+
+<table align="center" border=1 bordercolor="transparent" width="100%" cellpadding="1" cellspacing="1" style="margin-top: 10px">
+    <tr>
+        <th colspan="2" style="font-size: 30px; text-align: center; height: 60px">ОФОРМЛЯЕМ ЗАКАЗ</th>
+    </tr>
+    <tr>
+        <th rowspan="2" style="margin-right: 60px; margin-top: 0px">
+            <form action="https://www.bing.com/search?" id="UserEnter1" name="UserEnter" target="_self" method="get" style="text-align: center; margin-left: 30px">
+                <fieldset style="text-align: center">
+                    <legend>КОНТАКТНАЯ ИНФОРМАЦИЯ</legend>
+                    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Фамилия" id="last_name"></p>
+                    <p>Имя: <input type="Text" name="name" size=20  value="Имя" id="name1"></p>
+                    <p>Номер телефона: <input type="Text" name="phone" size=20  value="+7 999 999 99 99"></p>
+                    <p>E-mail: <input type="Text" name="phone" size=20  value="e-mail@.com"></p>
+                    <p>Дата отправки: <input type="date" name="user_date"  value='2023-11-08' id="date1"></p>
+                    <p> <input type="hidden"  name="q" value="search"></p>
+                </fieldset>
+                <p>
+                    <input type="Submit" name="submit" value="Сохранить">
+                </p>
+            </form>
+        </th>
+    </tr>
+
+
+    <tr>
+        <th style="margin-top: 10px">
+            <form action="https://www.bing.com/search?" id="UserEnter2" name="UserEnter" target="_self" method="get">
+                <fieldset style="margin-top: 20px; height: 500px">
+                    <legend>ВЫБОР ТОВАРА</legend>
+
+                    <p>Имя: <input type="Text" name="name" size=20  value="Имя" id="name2"></p>
+                    <p>Пароль: <input type="password" name="password" size=20  value="qwerty" id="password1"></p>
+                    <p>Дата доставки: <input type="date" name="user_date"  value='2023-11-08' id="date2"></p>
+                    <p>Количество украшений: <input type="number" name="jewellery_number"  value='1' id="number"></p>
+                    <p>Тип украшения:</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery1" value="earrings">Серьги</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery2"  value="chokers">Чокеры</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery3"  value="bracelets">Браслеты</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery4" value="cuffs">Каффы</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery5" value="rings">Кольца</p>
+                    <p><input type="Radio" name="jewellery" id="jewellery6" value="necklace">Колье</p>
+                    <p><input type="Radio" name="jewellery" id="other" value="set">Сет</p>
+                    <p>Выберите сет:
+                        <link rel="stylesheet" href="assets/style/style.css">
+                        <select name="set" id="set">
+                            <OPTION value="set1">«Monica»</OPTION>
+                            <OPTION value="set2">«Crystal»</OPTION>
+                            <OPTION value="set3">«Tiger eye»</OPTION>
+                            <OPTION value="set4">«Rose»</OPTION>
+                            <OPTION value="set5">«Nola»</OPTION>
+                            <OPTION value="set6">«Nero»</OPTION>
+                        </select>
+                    </p>
+
+                    <p>Положить украшения в праздничную упаковку?</br>
+                        <br> <input type="Checkbox" name="yes" value="yes">Да</br>
+                        <br> <input type="Checkbox" name="no" value="no">Нет</br>
+                    </p>
+                    <p><input type="hidden"  name="q" value="search"></p>
+                </fieldset>
+
+                <input type="hidden" name="function"  value="page">
+                <input type="hidden" name="page_id"  value="4">
+
+                <p>
+                    <input type="Submit" name="submit"  value="Оформить заказ">
+                </p>
+            </form>
+        </th>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
