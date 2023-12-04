@@ -1,0 +1,149 @@
+/* NAVIGATION */
+.container-fluid {
+    background-color: lightblue;
+    max-height: 100px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #1f6278;
+}
+
+/* HOMEPAGE */
+.text1 p {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #5D9B9B;
+}
+
+.container img {
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text2 p {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #5D9B9B;
+}
+
+.container table th {
+    background-color: lightblue;
+    width: initial;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .container table thead {
+        display: none;
+    }
+
+    .container table tr {
+        display: block;
+    }
+
+    .container table td {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .container table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+
+    /* RANGE */
+    table {
+        border: 1px solid aliceblue;
+        border-collapse: collapse;
+    }
+
+    figure {
+        border: transparent;
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        max-width: 250px;
+        margin: auto;
+    }
+
+    figcaption {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: transparent;
+        color: #5D9B9B;
+        padding: 3px;
+        text-align: center;
+    }
+
+    .sets p {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        text-decoration: underline;
+        color: #5D9B9B;
+    }
+
+    /* ORDERS */
+    fieldset {
+        background-color: transparent;
+        border-color: lightskyblue;
+        border-radius: 7px;
+        margin-top: 20px;
+        height: 200px;
+        text-align: left;
+        width: 500px;
+    }
+
+    legend {
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    input {
+        border-color: lightskyblue;
+        border-radius: 10px;
+        text-align: left;
+        margin-left: 10px;
+        width: fit-content;
+        color: black;
+        font-size: 15px;
+    }
+
+    table tr {
+        color: #5D9B9B;
+    }
+
+    table p {
+        font-size: 20px;
+        color: black;
+    }
+}
+
+
