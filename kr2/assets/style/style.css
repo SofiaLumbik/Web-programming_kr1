@@ -156,12 +156,13 @@ input {
 
 @media screen and (max-width: 600px) {
     .form1 {
-        width: 900px;
+        margin-top: 0px;
+        width: 600px;
         margin-left: 0px;
     }
 
     .form2 {
-        width: 900px;
+        width: 600px;
         margin-left: 0px;
     }
 
