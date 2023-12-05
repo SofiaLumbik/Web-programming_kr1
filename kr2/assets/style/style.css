@@ -155,16 +155,14 @@ input {
 }
 
 @media screen and (max-width: 500px) {
-    .form1 {
-        margin-left: 0px;
-        margin-top: 10px;
-        width: 300px
-    }
-
-    .form2 {
-        margin-left: 0px;
-        margin-top: 10px;
-    }
+    .form1{
+    margin-left: 20px;
+    margin-top: 800px;
+}
+    .form2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 }
 
