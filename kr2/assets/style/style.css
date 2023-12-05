@@ -154,7 +154,7 @@ input {
     margin-left: 510px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .form1 {
         width: 900px;
         margin-left: 0px;
