@@ -1,0 +1,253 @@
+body {
+    background-color: lightblue;
+}
+
+/* NAVIGATION */
+.container-fluid {
+    background-color: lightblue;
+    max-height: 1000px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: #1f6278;
+}
+
+.container-fluid2 a {
+    font-size: 15px;
+}
+
+.nav-item ul {
+    background-color: aliceblue;
+}
+
+.dropdown-menu a {
+    margin-left: 0;
+    text-align: center;
+}
+
+/* HOMEPAGE */
+.text1 p {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #5D9B9B;
+}
+
+.container img {
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.img-fluid2 img {
+    height: 100px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text2 p {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #5D9B9B;
+}
+
+.photo {
+    margin-left: 50px;
+    width: 50%;
+}
+
+/* INFORMATION */
+.care p {
+    font-size: 20px;
+    color: #1f6278;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.guarantee p {
+    font-size: 20px;
+    color: #1f6278;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gift p {
+    font-size: 20px;
+    color: #1f6278;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.care li {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.guarantee-content p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.guarantee-content li {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.gift-content {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.photo-care {
+    margin-left: 150px;
+}
+
+.photo-gift {
+    margin-left: 150px;
+}
+
+/* ORDERS */
+label {
+    font-size: 15px;
+    color: #1f6278;
+    padding-right: 10px;
+}
+
+fieldset {
+    background-color: aliceblue;
+    border-decoration: none;
+    border-radius: 15px;
+    text-align: left;
+    width: 500px;
+}
+
+input {
+    border-color: lightskyblue;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 10px;
+    width: fit-content;
+    color: black;
+    font-size: 15px;
+}
+
+.form1 legend {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #1f6278
+}
+
+.form2 legend {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    color: #1f6278
+}
+
+.form1 {
+    margin-left: 510px;
+}
+
+.form2 {
+    margin-left: 510px;
+}
+
+@media screen and (max-width: 900px) {
+    .form1 fieldset {
+        width: 400px;
+        margin-top: 10px;
+        margin-left: -500px;
+    }
+
+    .form1 p {
+        width: 460px;
+        margin-top: 0px;
+        margin-left: -560px;
+    }
+
+    .form2 fieldset {
+        width: 400px;
+        margin-top: 10px;
+        margin-left: -500px;
+    }
+
+    .form2 p {
+        width: 460px;
+        margin-top: 0px;
+        margin-left: -560px;
+    }
+
+    .form2 p a {
+        margin-left: 100px;
+    }
+
+    .form3 p {
+        margin-left: 0;
+    }
+
+    .form4 p {
+        margin-left: 0;
+    }
+
+    .care ul {
+        margin-left: 10px;
+    }
+
+    .photo-care img {
+        margin-left: -130px;
+    }
+
+    .guarantee-content {
+        margin-left: 10px;
+    }
+
+    .gift-content {
+        margin-left: 20px;
+    }
+
+    .photo-gift img {
+        margin-left: -130px;
+    }
+
+    .img-fluid img {
+        margin-left: 0px;
+    }
+
+    .img-fluid2 a {
+        margin-left: 0px;
+    }
+
+    .text1 p {
+        margin-left: 50px;
+    }
+
+    .text2 p {
+        margin-left: 50px;
+    }
+}
+
+
+
+
+

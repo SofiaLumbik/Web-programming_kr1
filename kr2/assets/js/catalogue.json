@@ -1,0 +1,86 @@
+[
+ {
+    "albumId": 3,
+    "id": 1,
+    "title": "Earrings",
+    "img": "assets/images/earrings.png",
+    "imgTitle": "Earrings"
+  },
+  {
+    "albumId": 3,
+    "id": 2,
+    "title": "Chokers",
+    "img": "assets/images/chokers.png",
+    "imgTitle": "Chokers"
+  },
+  {
+    "albumId": 3,
+    "id": 3,
+    "title": "Bracelets",
+    "img": "assets/images/bracelets.png",
+    "imgTitle": "Bracelets"
+  },
+  {
+    "albumId": 3,
+    "id": 4,
+    "title": "Rings",
+    "img": "assets/images/rings.png",
+    "imgTitle": "Rings"
+  },
+  {
+    "albumId": 3,
+    "id": 5,
+    "title": "Necklace",
+    "img": "assets/images/necklace.png",
+    "imgTitle": "Necklace"
+  },
+  {
+    "albumId": 3,
+    "id": 6,
+    "title": "Cuffs",
+    "img": "assets/images/cuffs.png",
+    "imgTitle": "Cuffs"
+  },
+  {
+    "albumId": 3,
+    "id": 7,
+    "title": "Set MONICA",
+    "img": "assets/images/set1.png",
+    "imgTitle": "Set MONICA"
+  },
+  {
+    "albumId": 3,
+    "id": 8,
+    "title": "Set CRYSTAL",
+    "img": "assets/images/set2.png",
+    "imgTitle": "Set CRYSTAL"
+  },
+  {
+    "albumId": 3,
+    "id": 9,
+    "title": "Set TIGER EYE",
+    "img": "assets/images/set3.png",
+    "imgTitle": "Set TIGER EYE"
+  },
+  {
+    "albumId": 3,
+    "id": 10,
+    "title": "Set ROSE",
+    "img": "assets/images/set4.png",
+    "imgTitle": "Set ROSE"
+  },
+  {
+    "albumId": 3,
+    "id": 11,
+    "title": "Set NOLA",
+    "img": "assets/images/set5.png",
+    "imgTitle": "Set NOLA"
+  },
+  {
+    "albumId": 3,
+    "id": 12,
+    "title": "Set NERO",
+    "img": "assets/images/set6.png",
+    "imgTitle": "Set NERO"
+  }
+]
