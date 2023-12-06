@@ -171,24 +171,24 @@ input {
 
 @media screen and (max-width: 900px) {
     .form1 fieldset {
-        width: 460px;
+        width: 400px;
         margin-top: 10px;
         margin-left: -500px;
     }
     .form1 p {
         width: 460px;
         margin-top: 0px;
-        margin-left: -530px;
+        margin-left: -560px;
     }
     .form2 fieldset {
-        width: 460px;
+        width: 400px;
         margin-top: 10px;
         margin-left: -500px;
     }
     .form2 p {
-        width: 460px;
+        width: 400px;
         margin-top: 0px;
-        margin-left: -530px;
+        margin-left: -560px;
     }
     .care ul {
         margin-left: 50px;
